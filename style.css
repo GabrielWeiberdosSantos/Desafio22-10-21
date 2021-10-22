@@ -1,0 +1,157 @@
+*{
+    padding: 0%px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.rodape1{
+    background-color: rgb(151, 151, 151);
+    color: rgb(151, 151, 151);
+    border: 4px;
+    border-color: beige;
+    height: 30px;
+}
+.p1{
+    left: 200px;
+    color: white;
+    width: 100px;
+    position: relative;
+}
+.p1:hover{
+    cursor: pointer;
+    
+}
+.p2{
+    top: -23px;
+    left: 400px;
+    color: white;
+    width: 100px;
+    position: relative;
+}
+.p3{
+    left: 600px;
+    top: -46px;
+    color: white;
+    width: 100px;
+    position: relative;
+}
+.thor1{
+    width: 500px;
+    left: 60px;
+    position: relative;
+}
+.title{
+    color: aquamarine;
+    font-style: oblique;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacao{
+  0% {color: aquamarine;}
+  50% {color: blue;}
+  0% {color:aquamarine;}
+  
+}
+
+.thor2{
+    width: 500px;
+    left: 300px;
+    position: relative;
+}
+.rodape2{
+    background-color: rgb(151, 151, 151);
+    color: rgb(151, 151, 151);
+    border: 20px;
+    border-color: beige;
+    height: 500px;
+}
+.plata{
+    color: white;
+    
+}
+.net{
+    position: relative;
+    left: 500px;
+    width: 500px;
+}
+.amaz{
+    position: relative;
+    left: 550px;
+    top: -44px;
+    width: 500px;
+}
+.disn{
+    position: relative;
+    left: 600px;
+    top: -89px;
+    width: 500px;
+    height: 100px;
+}
+.glob{
+    position: relative;
+    left: 650px;
+    top: -190px;
+    width: 500px;
+    height: 10px;
+}
+.tele{
+    position: relative;
+    left: 699px;
+    top: -199px;
+    width: 500px;
+    height: 10px;
+}
+.google{
+    position: relative;
+    left: 755px;
+    top: -210px;
+    width: 500px;
+    height: 10px;
+}
+.prof{
+    color: white;
+    position: relative;
+    top: -150px;
+}
+.copy{
+    color: white;
+    position: relative;
+    top: -100px;
+}
+.para1{
+    width: 700px;
+    position: relative;
+    left: 500px;
+    top: -500px;
+}
+.para2{
+    position: relative;
+    width: 700px;
+    left: 500px;
+    top: -470px;
+}
+.para3{
+    position: relative;
+    width: 1200px;
+    height: -100px;
+    left: -444px;
+    top: 10px;
+}
+.rodape3{
+    background-color: rgb(151, 151, 151);
+    color: rgb(151, 151, 151);
+    border: 4px;
+    border-color: beige;
+    height: 30px;
+}
+.mural{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 20px 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
